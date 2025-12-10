@@ -5,6 +5,7 @@ public:
         sort(nums.begin(), nums.end());
         set<vector<int>> set;
         vector<vector<int>> output;
+        
         for(int i=0; i<n-3; i++){
             for(int j=i+1; j<n-2; j++){
                 
