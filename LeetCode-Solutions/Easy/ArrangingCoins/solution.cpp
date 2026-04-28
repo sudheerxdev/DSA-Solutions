@@ -7,6 +7,7 @@ public:
         while(n >= i){
             n = n - i;
             i++;
+            
         }
         
         return i - 1;
