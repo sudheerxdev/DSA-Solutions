@@ -1,0 +1,8 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/find-number-of-times-a-string-occurs-as-a-subsequence3020/1">Count Matching Subsequences</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);"><p><span style="font-size: 18px;">Given two strings, <strong>s1</strong> and <strong>s2</strong>, count the number of subsequences of string <strong>s1</strong> equal to string <strong>s2</strong>.</span></p>
+<p><span style="font-size: 18px;"><span style="font-size: 18px;">Return the total count modulo <strong>1e9+7.</strong></span></span></p>
+<p><strong><span style="font-size: 18px;">Examples :</span></strong></p>
+<pre><span style="font-size: 18px;"><strong>Input:</strong> s1 = "geeksforgeeks", s2 = "gks"
+<strong>Output: </strong>4
+<strong>Explanation: </strong>We can pick characters from s1 as a subsequence from indices [0, 3, 4], [0, 3, 12], [0, 11, 12] and [8, 11, 12]. So total 4 subsequences of s1 that are equal to s2.</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input:</strong> </span><span style="font-size: 18px;">s1 = "problemoftheday", s2 = "geek"<br><strong>Output: </strong>0<br><strong>Explanation: </strong>No subsequence of string s1 is equal to string s2.</span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 ≤ s1.size(), s2.size() ≤ 10<sup>3</sup></span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Accolite</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Dynamic Programming</code>&nbsp;<code>Algorithms</code>&nbsp;<code>Strings</code>&nbsp;<code>Data Structures</code>&nbsp;
