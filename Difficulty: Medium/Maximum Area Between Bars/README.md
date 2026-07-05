@@ -1,0 +1,10 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/maximum-area-between-bars/1">Maximum Area Between Bars</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);"><p><span style="font-size: 18.6667px;">Given an integer array <strong>height[]</strong>, where height[i] represents the height of the<strong> </strong>i<sup>th</sup><strong>&nbsp;</strong>bar arranged in a row, find the <strong>maximum</strong> rectangular<strong> area</strong> that can be formed by selecting any two bars. </span><span style="font-size: 14pt;">The area is calculated based on the original positions of the selected bars.</span></p>
+<p><span style="font-size: 14pt;"><strong>Examples :</strong></span></p>
+<pre><span style="font-size: 18px;"><span style="font-size: 18px;"><span style="font-size: 18px;"><strong>Input: </strong>height[] = [2, 5, 4, 3, 7]<strong>
+Output: </strong>10<strong>
+Explanation:<br><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/929227/Web/Other/blobid0_1780468637.webp" width="282" height="242"><br></strong>The maximum rectangular area is formed by selecting the bars of heights 5 and 7.
+There are 2 bars between them, so the area is: min(5, 7) × 2 = 10<br></span></span></span></pre>
+<pre><span style="font-size: 18px;"><span style="font-size: 18px;"><span style="font-size: 18px;"><strong>Input:</strong> height[] = [1, 3, 4]
+<strong>Output: </strong>1<strong>
+Explanation: </strong></span><span style="font-size: 14pt;">Selecting bars 1 and 4 gives one bar between them, so the area is: min(1, 4) × 1 = 1</span></span></span></pre>
+<p><strong>Constraints:</strong><br><span style="font-size: 18px;">1 ≤ height.size() ≤ 10</span><sup>5</sup><br><span style="font-size: 18px;">1 ≤ height[i]&nbsp;≤ 10<sup>4</sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>two-pointer-algorithm</code>&nbsp;<code>Algorithms</code>&nbsp;
