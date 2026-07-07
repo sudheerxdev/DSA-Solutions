@@ -1,0 +1,11 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/largest-unblocked-submatrix/1">Largest Unblocked Submatrix</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);"><p><span style="font-size: 18px;">You are given integers <strong>n </strong>and <strong>m</strong>, and an array <strong>arr[][] </strong>of size <strong>k</strong>, where <strong>arr[i]</strong> = <strong>[r, c]</strong> represents a blocked cell in an <strong>n × m</strong> grid.</span></p>
+<p><span style="font-size: 18px;">Each blocked cell blocks its entire row and column. </span><span style="font-size: 18px;">Find the <strong>largest continuous</strong> unblocked area in the grid.</span></p>
+<p><span style="font-size: 18px;"><strong>Note:</strong> No two blocked cells are in the same row or the same column.</span></p>
+<p><strong><span style="font-size: 18px;">Examples:</span></strong></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>n = 2, m = 2, k = 1, arr[][] = [[2, 2]]
+<strong>Output: </strong>1
+<strong>Explanation: </strong>Since only (1,1) cell is free from the enemy hence answer is 1.</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>n = 3, m = 3, k = 1, arr[][] = [[3, 3]]
+<strong>Output: </strong>4
+<strong>Explanation: </strong>The cells (1,1), (1,2), (2,1) and (2,2) are free hence answer is 4.</span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 ≤ n, m ≤ 10<sup>4</sup><br>0 ≤ k ≤ min(n, m)<br>1 ≤ r<sub>&nbsp;</sub></span><span style="font-size: 15px;"><span style="font-size: 14pt;">≤</span>&nbsp;<span style="font-size: 14pt;">n</span></span><span style="font-size: 18px;"><br></span><span style="font-size: 18px;">1 ≤ c<sub>&nbsp;</sub></span><span style="font-size: 15px;"><span style="font-size: 14pt;">≤</span> <span style="font-size: 14pt;">m</span></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Greedy</code>&nbsp;<code>Sorting</code>&nbsp;<code>Algorithms</code>&nbsp;
