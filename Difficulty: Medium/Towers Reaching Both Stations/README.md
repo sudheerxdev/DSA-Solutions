@@ -1,0 +1,15 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/geeks-island--170646/1">Towers Reaching Both Stations</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);"><p><span style="font-size: 18px;">Given a matrix <strong>mat[][]</strong> of size <strong>n x m</strong>, where mat[i][j] represents the signal strength of a communication tower. Two control stations monitor the network:</span></p>
+<ul>
+<li><span style="font-size: 18px;">Station <strong>P</strong> covers the top and left boundaries of the grid.</span></li>
+<li><span style="font-size: 18px;">Station <strong>Q</strong> covers the bottom and right boundaries of the grid.</span><span style="font-size: 18px;"><br></span></li>
+</ul>
+<p><span style="font-size: 18px;">A signal can propagate from a tower to one of its neighbouring towers in the four directions (North, South, East, and West) only if the neighbouring tower has a signal strength less than or equal to that of the current tower.</span></p>
+<p><span style="font-size: 18px;">Determine the <strong>number of towers (x, y)</strong> from which a signal can eventually reach both Station P and Station Q. Any tower located on a boundary covered by a station can transmit directly to that station.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>mat[][] = [[1, 2, 2, 3, 5], [3, 2, 3, 4, 4], [2, 4, 5, 3, 1], [6, 7, 1, 4, 5], [5, 1, 1, 2, 4]]
+<strong>Output:</strong> 7
+<strong>Explanation:</strong> <br><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/930475/Web/Other/blobid0_1782995165.webp" width="246" height="241"><br></span><span style="font-size: 18px;">(0, 4) &amp; (4, 0) are part of both P &amp; Q <br>(1, 3) reaches P using (1,3)-&gt;(0,3) and Q using (1,3)-&gt;(1,4)<br>(1, 4) reaches P using (1,4)-&gt;(1,3)-&gt;(1,2)-&gt;(0,2) and it is on Q<br>(2, 2) reaches P using (2,2)-&gt;(2,1)-&gt;(2,0) and Q using (2,2)-&gt;(2,3)-&gt;(2,4)<br>(3, 0) is on P and reaches Q using (3,0)-&gt;(4,0)<br>(3, 1) reaches P using (3,1)-&gt;(3,0) and Q using (3,1)-&gt;(4,1)</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>mat[][] = [[2, 2], [2, 2]]
+<strong>Output:</strong> 4
+<strong>Explanation:</strong> </span><span style="font-size: 18px;">In the following example, all cells allow signals to propagate to both the stations.</span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 ≤ n, m </span><span style="font-size: 18px;">≤ 10</span><sup>3<br></sup><span style="font-size: 18px;">1 ≤ mat[i][j] ≤ 10<sup>3</sup>&nbsp;</span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>DFS</code>&nbsp;<code>Matrix</code>&nbsp;
