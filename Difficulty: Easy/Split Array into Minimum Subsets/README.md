@@ -1,0 +1,9 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/split-array-into-minimum-subsets/1">Split Array into Minimum Subsets</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);"><p><span style="font-size: 18px;">Given an array <strong>arr[]</strong> of distinct positive numbers. Split the array into the minimum<strong> </strong>number of subsets such that each subset contains consecutive numbers.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input</strong></span><span style="font-size: 14pt;"><strong>:</strong></span> <span style="font-size: 18px;">arr[] = [100, 56, 5, 6, 102, 58, 101, 57, 7, 103, 59]
+<strong>Output: </strong>3
+<strong>Explanation</strong>: [</span><span style="font-size: 18px;">5, 6, 7], [56, 57, 58, 59], [100, 101, 102, 103] are 3 subsequences in which numbers are consecutive.</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = [10, 100, 105]
+<strong>Output: </strong>3
+<strong>Explanation</strong>: [</span><span style="font-size: 18px;">10], [100] and [105] are 3 subset in which numbers are consecutive.</span></pre>
+<p><span style="font-size: 18px;"><span style="font-size: 18px;"><strong>Constraints:<br></strong>1 ≤ arr.size() ≤ 10<sup>5</sup></span><span style="font-size: 18px;"><br></span><span style="font-size: 18px;">0 ≤ arr[i] ≤ 10<sup>9</sup></span></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Sorting</code>&nbsp;<code>Arrays</code>&nbsp;<code>Hash</code>&nbsp;
