@@ -1,0 +1,13 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/longest-path-in-a-directed-acyclic-graph/1">Longest Path in a Directed Acyclic Graph</a></h2><h3>Difficulty Level : Difficulty: Hard</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);"><p><span style="font-size: 18px;">Given a weighted Directed Acyclic Graph (DAG) with <strong>V&nbsp;</strong>vertices numbered from 0 to V - 1, represented by <strong>edges[][]</strong>, where edges[i] = [u, v, w] denotes a directed edge from u to v with weight w, and a source vertex <strong>src</strong>.</span></p>
+<ul>
+<li><span style="font-size: 18px;">Return the<strong> </strong>distance array, where the value at index i represents the longest distance from s to vertex i. </span></li>
+<li><span style="font-size: 18px;">If a vertex is unreachable from s, store INT_MIN for that vertex. The driver code will automatically display INT_MIN as INF.</span></li>
+</ul>
+<p><strong><span style="font-size: 18px;">Examples :</span></strong></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>V<strong> </strong>= 4, src = 0, edges[][] = [[0, 1, 1], [0, 2, 1], [1, 2, 5], [3, 1, 2], [3, 2, -1]]
+<strong>Output: </strong>[0, 1, 6, INF]
+<strong>Explanation: </strong>The longest distance of vertex 1 from 0 is 1, vertex 2 is 6 and vertex 3 is unreachable so INF.<br><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/929699/Web/Other/blobid0_1781593057.webp" width="215" height="184"><br></span></pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>V = 5, src = 1, edges[][] = [[0, 1, 1], [0, 2, 2], [1, 4, 4], [3, 2, -1], [4, 2, 3], [4, 3, 6]]
+<strong>Output: </strong>[INF, 0, 9, 10, 4]
+<strong>Explanation: </strong>The vertex 0 is not reachable from vertex 1 so its distance is INF, for 2 it is 9, for 3 it is 10, and for 4 it is 4.<br><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/929699/Web/Other/blobid2_1781591927.webp" width="217" height="186"><br></span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 ≤ V ≤ 10</span><sup><span style="font-size: 15px;">4<br></span></sup><span style="font-size: 18px;">0 ≤ src ≤ V-1<br>1 ≤ edges.size() ≤ V * (V - 1) / 2</span><br><span style="font-size: 18px;">0 ≤ edges[i][0], edges[i][1] &lt; V<br>-100 ≤ edges[i][2] ≤ 100</span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Graph</code>&nbsp;
