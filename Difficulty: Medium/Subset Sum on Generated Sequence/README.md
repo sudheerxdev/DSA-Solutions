@@ -1,0 +1,9 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/tricky-subset-problem1557/1">Subset Sum on Generated Sequence</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);"><p><span style="font-size: 18px;">There are <strong>n</strong> children standing in a queue, each assigned a number <strong>arr[i]</strong>. The teacher writes <strong>s</strong> on a paper and gives it to the first child. </span></p>
+<p><span style="font-size: 18px;">Each child writes the sum of all numbers already on the paper and arr[i], then passes it to the next child. </span></p>
+<p><span style="font-size: 18px;">Return true if <strong>x</strong> can be formed by adding some of the numbers written on the paper: else return false.</span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = [1, 2, 4, 2], s = 1, x = 7
+<strong>Output:</strong> true
+<strong>Explanation:</strong> The first student gets 1 on paper and writes 2. The second student gets [1, 2] and writes 5. The third student gets [1, 2, 5] and writes 12. The final sequence of numbers on the paper is 1, 2, 5, 12, 22. Using 2 and 5 we can form 7. </span></pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = [51, 88],<strong> </strong>s = 100, x = 500
+<strong>Output: </strong>false
+<strong>Explanation:</strong> The final sequence of numbers on the paper is 100, 151, 339. Using these numbers we cannot form 500.</span> </pre></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Greedy</code>&nbsp;
